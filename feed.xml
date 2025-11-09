@@ -4,10 +4,10 @@
     <title>777-Labs</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Nov 2025 13:56:18 +1100</pubDate>
-    <lastBuildDate>Sun, 09 Nov 2025 13:56:18 +1100</lastBuildDate>
+    <link>http://localhost:4000https://lussdac.github.io/website-testing/</link>
+    <atom:link href="http://localhost:4000https://lussdac.github.io/website-testing/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 09 Nov 2025 15:24:21 +1100</pubDate>
+    <lastBuildDate>Sun, 09 Nov 2025 15:24:21 +1100</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -23,8 +23,8 @@
 
 </description>
         <pubDate>Fri, 07 Nov 2025 11:15:32 +1100</pubDate>
-        <link>http://localhost:4000/jekyll/update/2025/11/07/New-Post-Testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2025/11/07/New-Post-Testing.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/jekyll/update/2025/11/07/New-Post-Testing.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/jekyll/update/2025/11/07/New-Post-Testing.html</guid>
         
         
         <category>jekyll</category>
@@ -116,8 +116,8 @@ When poorly protected, it gives attackers control over the entire system.&lt;br 
 Robust cybersecurity starts &lt;strong&gt;at the firmware layer&lt;/strong&gt; — with secure coding, update mechanisms, and verification baked in from the start.&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Nov 2025 10:52:32 +1100</pubDate>
-        <link>http://localhost:4000/iot/firmware/2025/11/07/iot-stuff.html</link>
-        <guid isPermaLink="true">http://localhost:4000/iot/firmware/2025/11/07/iot-stuff.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/iot/firmware/2025/11/07/iot-stuff.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/iot/firmware/2025/11/07/iot-stuff.html</guid>
         
         
         <category>iot</category>
@@ -144,8 +144,8 @@ Robust cybersecurity starts &lt;strong&gt;at the firmware layer&lt;/strong&gt; �
 
 </description>
         <pubDate>Fri, 07 Nov 2025 10:52:32 +1100</pubDate>
-        <link>http://localhost:4000/jekyll/update/2025/11/07/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2025/11/07/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/jekyll/update/2025/11/07/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/jekyll/update/2025/11/07/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -301,8 +301,8 @@ This means any node can transmit data, and all nodes listen to the same shared n
 
 </description>
         <pubDate>Thu, 06 Nov 2025 11:15:32 +1100</pubDate>
-        <link>http://localhost:4000/autmotive/background/2025/11/06/Automotive-CAN-Background.html</link>
-        <guid isPermaLink="true">http://localhost:4000/autmotive/background/2025/11/06/Automotive-CAN-Background.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/autmotive/background/2025/11/06/Automotive-CAN-Background.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/autmotive/background/2025/11/06/Automotive-CAN-Background.html</guid>
         
         
         <category>autmotive</category>
@@ -375,8 +375,8 @@ This means any node can transmit data, and all nodes listen to the same shared n
 &lt;p&gt;A relay attack exploits proximity assumptions in keyless systems by forwarding legitimate key signals. Prevention focuses on blocking or disabling the key’s RF when not in use, hardening the vehicle’s start/unlock behavior, and adding physical security layers.&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Nov 2025 00:00:00 +1100</pubDate>
-        <link>http://localhost:4000/attacks/autmotive/rf/2025/11/06/RF-Relay.html</link>
-        <guid isPermaLink="true">http://localhost:4000/attacks/autmotive/rf/2025/11/06/RF-Relay.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/attacks/autmotive/rf/2025/11/06/RF-Relay.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/attacks/autmotive/rf/2025/11/06/RF-Relay.html</guid>
         
         
         <category>attacks</category>
@@ -459,8 +459,8 @@ This means any node can transmit data, and all nodes listen to the same shared n
 
 </description>
         <pubDate>Wed, 05 Nov 2025 00:00:00 +1100</pubDate>
-        <link>http://localhost:4000/attacks/autmotive/rf/2025/11/05/RF-Replay.html</link>
-        <guid isPermaLink="true">http://localhost:4000/attacks/autmotive/rf/2025/11/05/RF-Replay.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/attacks/autmotive/rf/2025/11/05/RF-Replay.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/attacks/autmotive/rf/2025/11/05/RF-Replay.html</guid>
         
         
         <category>attacks</category>
@@ -492,8 +492,8 @@ This means any node can transmit data, and all nodes listen to the same shared n
 
 </description>
         <pubDate>Wed, 06 Apr 2016 08:50:03 +1000</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/beautiful-day.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/beautiful-day.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/travel/2016/04/06/beautiful-day.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/travel/2016/04/06/beautiful-day.html</guid>
         
         
         <category>travel</category>
@@ -520,8 +520,8 @@ This means any node can transmit data, and all nodes listen to the same shared n
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 08:49:03 +1000</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/hello-there.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/hello-there.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/travel/2016/04/06/hello-there.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/travel/2016/04/06/hello-there.html</guid>
         
         
         <category>travel</category>
@@ -548,8 +548,8 @@ This means any node can transmit data, and all nodes listen to the same shared n
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 08:48:03 +1000</pubDate>
-        <link>http://localhost:4000/travel,/life/2016/04/06/new-way-new-life.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel,/life/2016/04/06/new-way-new-life.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/travel,/life/2016/04/06/new-way-new-life.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/travel,/life/2016/04/06/new-way-new-life.html</guid>
         
         
         <category>travel,</category>
@@ -578,8 +578,8 @@ This means any node can transmit data, and all nodes listen to the same shared n
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 08:47:03 +1000</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/new-way-new-move.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/new-way-new-move.html</guid>
+        <link>http://localhost:4000https://lussdac.github.io/website-testing/travel/2016/04/06/new-way-new-move.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://lussdac.github.io/website-testing/travel/2016/04/06/new-way-new-move.html</guid>
         
         
         <category>travel</category>
