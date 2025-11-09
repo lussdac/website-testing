@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>RF Relay Unlock Attack</title>
+  <meta name="description" content="RF Relay Attack - Access Vulnerability">
+
+
+  <link rel="stylesheet" href="/css/app.css">
+  <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,600,300" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/css/superslides.css"/>
+  <link rel="stylesheet" href="/css/slick-theme.css"/>
+  <link rel="stylesheet" href="/css/slick.css"/>
+  <link rel="stylesheet" href="/css/animate.css"/>
+  <link rel="stylesheet" href="/css/linea-styles.css"/>
+  <link rel="stylesheet" href="/css/linea-arrows-styles.css"/>
+  <link rel="stylesheet" href="/css/font-awesome.css"/>
+  <link rel="stylesheet" href="/css/chivo.css"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <link rel="stylesheet" href="/css/responsive.css"/>
+
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+
+  <link rel="canonical" href="https://daveistesting.com/attacks/autmotive/rf/2025/11/06/RF-Relay.html">
+  <link rel="alternate" type="application/rss+xml" title="777-Labs" href="https://daveistesting.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <div class='contain-to-grid sticky transparent'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class="">
+        <h1>
+          <a href='https://daveistesting.com/index.html'>
+            <span>777</span>LABS
+          </a>
+        </h1>
+      </li>
+    </ul>
+    <div id="menu-toggler" class="right">
+      <a href='#'>
+        <i class="icon-arrows-hamburger-2"></i>
+      </a>
+    </div>
+    <section class='top-bar-section closed'>
+      <ul class='right'>
+
+        
+          
+
+          
+            <li class="has-dropdown ">
+              <a href="https://daveistesting.com/index.html">Home</a>
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="https://daveistesting.com/index.html">Home Studio</a>
+                  </li>
+                
+                  <li>
+                    <a href="https://daveistesting.com/index-personal.html">Home Personal</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+
+          
+            <li class="has-dropdown ">
+              <a href="https://daveistesting.com/about.html">Pages</a>
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="https://daveistesting.com/about.html">About Us</a>
+                  </li>
+                
+                  <li>
+                    <a href="https://daveistesting.com/services.html">Services</a>
+                  </li>
+                
+                  <li>
+                    <a href="https://daveistesting.com/services-2.html">Services 2</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+
+          
+            <li class="has-dropdown ">
+              <a href="https://daveistesting.com/portfolio.html">Works</a>
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="https://daveistesting.com/portfolio.html">Portfolio Style 1</a>
+                  </li>
+                
+                  <li>
+                    <a href="https://daveistesting.com/portfolio-2.html">Portfolio Style 2</a>
+                  </li>
+                
+                  <li>
+                    <a href="https://daveistesting.com/portfolio-item.html">Single Page 1</a>
+                  </li>
+                
+                  <li>
+                    <a href="https://daveistesting.com/portfolio-item-2.html">Single Page 2</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="https://daveistesting.com/contact.html">Contact</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="has-dropdown ">
+              <a href="https://daveistesting.com//blog">Blog</a>
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="https://daveistesting.com/blog/">Blog</a>
+                  </li>
+                
+                  <li>
+                    <a href="https://daveistesting.com/travel/2016/04/06/beautiful-day.html">Single Page</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+
+      </ul>
+    </section>
+  </nav>
+</div>
+
+
+    <div class="full">
+  <div class="post single">
+    
+    <div class="four spacing"></div>
+    <div class="row">
+      <div class="large-9 large-centered columns">
+        <div class="post-content">
+          <h2>RF Relay Unlock Attack</h2>
+          <p class='info'>
+            
+              <span>
+                
+                  <a href="#">Attacks</a>
+                  
+                      ,
+                  
+                
+                  <a href="#">Autmotive</a>
+                  
+                      ,
+                  
+                
+                  <a href="#">Rf</a>
+                  
+                
+              </span>
+              /
+            
+            <span>November 06, 2025</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>RF Relay Attack - Access Vulnerability</p>
+
+<h2 id="tldr">TL;DR</h2>
+<p>An <strong>RF relay attack</strong> lets thieves unlock and start a keyless-entry vehicle by <strong>extending the effective range</strong> of the owner’s key fob. Attackers <strong>relay</strong> signals between the car and the real key (often still inside a house), fooling the vehicle into thinking the key is nearby.</p>
+
+<hr />
+
+<h2 id="what-it-is-plain-terms">What it is (plain terms)</h2>
+<p>A relay attack uses two devices:</p>
+<ul>
+  <li><strong>Relay A</strong> placed near the target car.</li>
+  <li><strong>Relay B</strong> placed near the owner’s key fob (e.g., inside a house or pocket).</li>
+</ul>
+
+<p>Relay B picks up the key’s weak radio signal and sends it to Relay A (over a short-range link such as Bluetooth, Wi-Fi, or a cable). Relay A rebroadcasts that signal to the car, which then behaves as if the key is present — allowing the car to unlock or start.</p>
+
+<hr />
+
+<h2 id="why-it-works-high-level">Why it works (high level)</h2>
+<p>Many keyless systems authenticate based on <strong>proximity</strong> rather than a physical action. If the car receives a valid key signal, it will accept commands. The relay does <strong>not</strong> need to crack encryption — it simply forwards the original, legitimate signal in real time, bypassing the intended distance limitation.</p>
+
+<hr />
+
+<h2 id="typical-impact">Typical impact</h2>
+<ul>
+  <li>Unauthorized unlocking of doors</li>
+  <li>Ignition/start enabling (for vehicles that allow keyless start while key is “present”)</li>
+  <li>Theft of vehicle and/or contents</li>
+</ul>
+
+<hr />
+
+<h2 id="common-mitigations">Common mitigations</h2>
+<ul>
+  <li><strong>Faraday pouch/box</strong>: Store key fobs in RF-blocking containers at home.</li>
+  <li><strong>Turn off passive entry</strong>: Disable passive/unattended unlock if the vehicle allows it.</li>
+  <li><strong>Key fob power-saving modes</strong>: Use fobs with motion sensors that shut down RF when stationary.</li>
+  <li><strong>Aftermarket shields</strong>: Add devices that block or detect relay attempts.</li>
+  <li><strong>Vehicle settings / firmware</strong>: Enable manufacturer options (PIN to start, enhanced authentication) and install updates.</li>
+  <li><strong>Physical security</strong>: Use steering locks or park in secure/monitored locations as an extra layer.</li>
+</ul>
+
+<hr />
+
+<h2 id="detection-clues">Detection clues</h2>
+<ul>
+  <li>Car unlocks with no keyholder present.</li>
+  <li>Doors unlocked or ignition engaged with no user action.</li>
+  <li>Surveillance footage showing suspicious loitering near the vehicle or house.</li>
+</ul>
+
+<hr />
+
+<h2 id="legal--ethical-note">Legal &amp; ethical note</h2>
+<p>Testing or using relay techniques on property you do not own or have permission to test is illegal. If you discover a vulnerability, follow responsible disclosure and notify the manufacturer or property owner.</p>
+
+<hr />
+
+<h2 id="bottom-line">Bottom line</h2>
+<p>A relay attack exploits proximity assumptions in keyless systems by forwarding legitimate key signals. Prevention focuses on blocking or disabling the key’s RF when not in use, hardening the vehicle’s start/unlock behavior, and adding physical security layers.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="full no-padding footer brown centered-text">
+  <div class="four spacing"></div>
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="socials">
+        <li><a href="#"><i class='fa fa-twitter'></i></a></li>
+        <li><a href="#"><i class='fa fa-facebook'></i></a></li>
+        <li><a href="#"><i class='fa fa-linkedin'></i></a></li>
+        <li><a href="#"><i class='fa fa-dribbble'></i></a></li>
+        <li><a href="#"><i class='fa fa-behance'></i></a></li>
+      </ul>
+      <p>Copyright ©2015 777-Labs.</p>
+      <p>All rights reserved.</p>
+      <div class="four spacing"></div>
+      <p class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i>Back to top</a></p>
+    </div>
+  </div>
+  <div class="spacing"></div>
+</div>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/foundation/js/foundation.min.js"></script>
+<script src="/js/jquery.superslides.min.js"></script>
+<script src="/js/slick.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/jquery.validate.js"></script>
+<script src="/bower_components/countto/jquery.countTo.js"></script>
+<script src="/bower_components/appear/jquery.appear.js"></script>
+<script src="/js/app.js"></script>
+
+
+  </body>
+
+</html>
